@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+    <style>
+        .back{
+            background-color: rgb(186, 220, 223);
+        }
+
+        .atsbwh{
+            background-color: rgb(250, 184, 225);
+        }
+    </style>
+
+</head>
+<body style="margin: 0;" class="back">
+
+    <!--- Navbar --->
+    <nav style="padding-top: 10px; padding-bottom: 10px;border-bottom: solid 2px;" class="atsbwh">
+        <!-- Container Display flex Navbar -->
+        <div style="display: flex;">
+
+            <!-- Left Navbar -->
+            <h1 style="margin-left: 15px;">MNZ SHOP</h1>
+            <div style="margin-top: 10px; justify-content: left;">
+                <ul style="display: flex; list-style: none; gap: 10px; ;">
+                    <li>
+                        <a href="#" style="text-decoration: none">HOME</a>
+                    </li>
+                    <li>
+                        <a href="#" style="text-decoration: none"></a>
+                    </li>
+                    <li>
+                        <a href="#" style="text-decoration: none">CONTACT US</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- End Left Navbar -->
+
+            <!-- Right Navbar -->
+            <div style=" margin-left: 750px;">
+                <ul style="display: flex; list-style: none; gap: 10px;">
+                    <li>
+                        <a href="#" style="text-decoration: none; color: black;">
+                            <img width="32px" src="https://cdn.iconscout.com/icon/free/png-256/search-1767866-1502119.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" style="text-decoration: none; color: black;">
+                            <img src="https://cdn.iconscout.com/icon/free/png-256/cart-1438627-1214043.png"  
+                            width="30px" > </a>
+                     </li>
+                    <li>
+                        <a href="#" style="text-decoration: none; color: black; font-size: 25px;">Cart(1)</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- End Right Navbar -->
+        </div>
+
+        <!-- End Container Display flex Navbar -->
+    </nav>
+    <!-- End of navbar -->
+
+    <!-- Container Your Cart -->
+    <div style="padding-top:50px; padding-left: 22px;">
+        <h1 style="font-weight: normal; margin-left: 50px;">You Cart</h1>
+    </div>
+    <!-- End Container Your Cart -->
+    
+    <!-- Container display flex content -->
+    <div style="margin-left: 50px; display: flex; padding-left: 22px; padding-bottom: 200px; gap: 40px;">
+        <!-- Tabel LeftSide -->
+        <table style="width: 60%; border-collapse: collapse;">
+                <thead>
+                    <tr align="left" style="border-top:1px solid black; border-bottom: 1px solid black;">
+                        <th>Price</th>
+                        <th>Random</th>
+                        <th>Quantity</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="display: flex; align-items: center;">
+                            <img style="margin-top: 20px;"  
+                            width="200"src="gamis.jpg"alt="">
+                            <p style="margin-left: 15px;">BAJU GAMIS WANITA <br>  BAHAN TEBAL DAN GAK BIKIN PANAS<br> - RANDOM</p>
+                        </td>
+                        <td><b>160.000</b></td>
+                        <td>
+                            <select name="" id="">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3" align="right" style="border-top:1px solid black; border-bottom: 1px solid black;">Subtital: <b>160.000</b></td>
+                    </tr>
+                </tfoot>
+        </table>
+        <!-- End Tabel LeftSide -->
+
+        <!-- Table Right Side -->
+        <div style="margin-left: 100px; justify-content: right; width: 300px; height: 300px; background-color: #dddddd; border-radius: 10px; border: solid 1px;">
+            <div style="padding-left:30px;">
+                <h4 style="font-weight: bold;">Summary(4 Items)</h4>
+                <table border="0" style="width:60%;">
+                    <tbody>
+                        <tr>
+                            <td scope="row"><b>Subtotal</b> </td>
+                            <td colspan="2" align="right"><b>160.000</b></td>
+                        </tr>
+                        <tr>
+                            <td scope="row"><b>Shipping</b></td>
+                            <td colspan="2" align="right"><b>10.500</b></td>
+                        </tr>
+                        <tr>
+                            <td scope="row"><b>Est. Toxes</b></td>
+                            <td colspan="2" align="right"><b>5.000</b></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3"><hr></td>
+                        </tr>
+                        <tr>
+                            <td><b>Total</b></td>
+                            <td colspan="2" align="right"><b>175.500</b></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center">
+                                <form action="/cekout.html" style="margin-top: 80px;">
+                                    <input type="submit" value="Checkout" style="background-color: rgb(28, 226, 71); width: 200px; border: 3px solid black; color: white;">
+                                </form>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!-- ENd Table Rightside -->
+
+    </div>
+    <!-- End Container display flex content -->
+    <!-- Container Footer -->
+    <footer style="padding-top: 10px; padding-bottom: 10px; border-top: 3px solid black;" class="atsbwh">
+        <!-- Container Flex Footer -->
+        <div style="display: flex;">
+            
+            <!-- Leftside Footer -->
+            <ul style="list-style: none;">
+                <li>
+                <h4>Shooping Now</h4>
+                <ul style="display: flex; list-style: none; gap: 10px; margin-top: -13px; margin-left: -30px;">
+                    <li style="font-size: 35px;"><i class="fab fa-cc-visa" style="color: #8777c0;"></i></li>
+                    <li style="font-size: 35px;"><i class="fab fa-cc-visa" style="color: #8f97df;"></i></li>
+                    <li style="font-size: 35px;"><i class="fab fa-cc-visa" style="color: #8895cf;"></i></li>
+                </ul>
+                </li>
+            </ul>
+            
+            <ul style="display: flex; list-style: none; gap: 10px; margin-top: 40px;">
+                <li>
+                    <a href="#" style="text-decoration: none">Credits</a>
+                </li>
+                <li>
+                    <a href="#" style="text-decoration: none">Terms of Service</a>
+                </li>
+                <li>
+                    <a href="#" style="text-decoration: none">Blog Index</a>
+                </li>
+            </ul>
+            <!-- End Leftside Footer -->
+
+            <form action="" style="margin-left: 500px;">
+                <label for="Email"><h4 style="font-weight: normal;"><b>Don't forget to keep joining in our store</b></h4></label>
+                <input type="email" name="Email" id="" placeholder="Enter Email" style="border: 4px solid black; height: 20px; width: 217.5px; z-index: 1; margin-top: -40px;">
+                <button style="margin-left: -119.1px; border: 1.5px solid grey; background-color: rgb(31, 235, 48); color: white; height: 22px; width: 115px; z-index: 2; ">Subscribe</button>
+            </form>       
+
+         </div>
+         <!-- End Container Flex Footer -->
+    </footer>
+    <!-- End Container Footer -->
+</body>
+</html>
