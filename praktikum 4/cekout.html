@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <link rel="shortcut icon" href="img/checkout.png">
+    <title>Checkout Success</title>
+    <style>
+      body {
+      max-width: 80%; 
+      border: 1px solid black; 
+      margin: auto;
+      }
+      nav {
+      display: flex; 
+      align-items: center; 
+      padding: 5px; 
+      border-bottom: 1px solid black 
+      }
+      div {
+      display: flex; 
+      gap: 10px; 
+      margin-top: 10px; 
+      padding: 5px
+      }
+      .container {
+      display: flex; 
+      align-items: center; 
+      gap: 5px
+      }
+      .ul-1 {margin-right: 50px; display: flex; list-style-type: none; gap: 10px}
+      .ul-2 {display: flex; list-style-type: none; gap: 10px}
+      .ul-3 {margin-left: auto; display: flex; align-items: center; list-style-type: none; gap: 10px}
+      #li {display: flex; gap: 10px; align-items: center}
+      .ul-4 {border-top: 1px solid black; border-bottom: 1px solid black; padding-left: 10px}
+      p {
+      font-size: 16px; 
+      font-weight: bolder;
+      }
+      .div {width:350px; height: 350px; background-color: rgb(164, 217, 226); padding: 30px; display: grid; align-items: center}
+      .td-1 {border-top: 2px solid white; padding-left: 10px; padding-top: 5px; padding-bottom: 10px;}
+      .td-2 {border-top: 2px solid white; padding-left: 5px; padding-top: 3px}
+      .td-3 {border-top: 2px solid white; text-align: right; font-weight: bolder}
+      .footer {margin-top: 100px; border-top: 1px solid black; padding: 20px; display: grid; gap: 10px; background-color: rgb(233, 164, 202);}
+      </style>
+  </head>
+  <body>
+    <header style="background-color: rgb(236, 164, 220);">
+      <nav>
+        <ul class="ul-1">
+          <li>Mnz Shop</li>
+        </ul>
+        <ul class="ul-2">
+          <li>
+            <a href="/">Home</a> |
+          </li>
+          <li>
+            <a href="/events">Contact Us</a> |
+          </li>
+          <li>
+            <a href="/contact">About</a>
+          </li>
+        </ul>
+        <ul class="ul-3">
+          <li>
+            <i class="bi bi-search"></i>
+          </li>
+          <li id="li">
+            <i class="bi bi-cart-fill"></i>
+            <p>Cart 1</p>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div>
+      <main style="width: 60%">
+        <div class="container">
+          <div>
+            <svg width="50px" height="50px" viewBox="0 0 24 24">
+              <path fill="currentColor" d="M12 2C6.5 2 2 6.5 2 12S6.5 22 12 22 22 17.5 22 12 17.5 2 12 2M12 20C7.59 20 4 16.41 4 12S7.59 4 12 4 20 7.59 20 12 16.41 20 12 20M16.59 7.58L10 14.17L7.41 11.59L6 13L10 17L18 9L16.59 7.58Z" />
+            </svg>
+          </div>
+          <div>
+            <p>Order 574903111</p>
+            <p>terimakasih, Nurhalizah !</p>
+          </div>
+        </div>
+        <ul class="ul-4">
+          <li style="list-style-type: none">
+            <p>Pesanan anda telah kami konfirmasi.</p>
+            <p>Terimakasih telah belanja di toko kami, Kami telah menerima pesanan Anda dan sedang mempersiapkannya.</p>
+          </li>
+        </ul>
+        <div>
+          <h2>Customer Information</h2>
+        </div>
+        <div style="display: flex">
+          <ul style="list-style-type: none">
+            <li>
+              <p style="font-weight: bolder">Alamat Pengiriman</p>
+              <p>Nurhalizah</p>
+              <a style="color: blue" href="">Sobang, Rangkasbitung, Lebak Banten</a>
+            </li>
+          </ul>
+          <ul style="list-style-type: none">
+            <li>
+              <p style="font-weight: bolder">Billing Address</p>
+              <p>Nurhalizah</p>
+              <a style="color: blue" href="">Sobang, Rangkasbitung, Lebak Banten</a>
+            </li>
+          </ul>
+        </div>
+        <div style="display: flex">
+          <ul style="list-style-type: none">
+            <li>
+              <p>Shipping Method</p>
+              <p>Ninja id (2 hour) </p>
+            </li>
+          </ul>
+          <div></div>
+          <ul style="list-style-type: none">
+            <li>
+              <p>Payment Method</p>
+              <p>COD (Bayar di Tempat)</p>
+            </li>
+          </ul>
+        </div>
+      </main>
+      <div class="div">
+        <aside>
+          <h2>Summary</h2>
+          <table style="width: 100%; padding: 10px 0; border-collapse: collapse">
+            <tr style="padding: 10px 0">
+              <td>Subtotal (1 item)</td>
+              <td style="text-align:right">Rp.160.000</td>
+            </tr>
+            <tr style="padding: 10px 0">
+              <td>Shipping fee subtotal</td>
+              <td style="text-align:right">Rp.7.000</td>
+            </tr>
+            <tr style="padding: 10px 0">
+              <td>Jumlah Pemesanan</td>
+              <td style="text-align: right;">1</td>
+            </tr>
+            <tr>
+              <td class="td-1">Enter Kode Vocher</td>
+              <td style="border-top: 2px solid white"></td>
+            </tr>
+            <tr>
+            <td></td>
+            <td style="display: flex; gap: 15px; margin-bottom: 20px">
+                <input type="text">
+                <input type="button" value="Apply">
+            </td>
+            </tr>
+            <tr style="padding: 20px 0">
+                <td class="td-2">Total</td>
+                <td class="td-3">Rp.167.000</td>
+            </tr>
+          </table>
+        </aside>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="baris" style="display: flex; gap: 10px">
+        <a href="">Mnz Shop</a>
+        <a href="">Home</a> | <a href="">Contact Us</a> |
+        <a href="">About</a>
+        <a style="margin-left: auto" href="">Jangan terlewatkan, segera belanja di toko kami sebelum kehabisan.</a>
+      </div>
+        <div class="input-subscribe" style="display: flex; align-items: center; margin-left: auto; font-weight: bolder">
+          <input style="font-weight: bolder; height: 20px" type="text" placeholder="Enter Email" />
+          <p style="background-color: rgba(167, 230, 159, 0.973)">Subscribe</p>
+      </div>
+    </footer>
+  </body>
+</html>
