@@ -1,0 +1,59 @@
+nav,header,footer,article,aside{
+    text-align: center;
+    font-family: sans-serif;
+    color:black;
+    margin:10px;
+    justify-content: center;
+}
+#satu{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(202, 20, 148);
+    padding:1em;
+    width:auto;
+    height:auto;
+    align-items: stretch;
+}
+header,footer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(75, 223, 243);
+    width:97%;
+    height:100px;
+    padding:10px 10px;
+}
+#dua{
+    display: flex;
+    min-height:100vh;
+    flex-direction: row;
+}
+aside{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(218, 243, 105);
+    width:300%;
+    height:auto;
+}
+article{
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    background-color: rgb(209, 223, 85);
+    width:70%;
+    height:auto;
+}
+#box{
+    display: flex;
+    flex-direction: row;
+}
+.box{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(11, 150, 243);
+    width: 266px;
+    height:200px;
+    margin:10px;
+}

@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+nav,header,article,aside,footer{
+    padding:1em;
+    font-family: sans-serif;
+    color:rgb(17, 13, 226);
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    margin:0%;
+}
+.bismillah{
+    display: flex;
+    flex:1;
+}
+.bismillah nav{
+    background-color: rgb(230, 63, 230);
+    flex:0 0 20vw;
+    order:0;
+}
+.lahaula{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.lahaula article{
+    order:0;
+    flex:1;
+}
+.lahaula aside{
+    flex: 0 0 20vw;
+    background-color: rgb(218, 69, 248);
+    order:1;
+    order:0;
+}
+header,footer{
+    background-color: rgb(105, 233, 255);
+    height:10vw;
+}
+.subhanalloh{
+    display:flex;
+    flex:1;
+}
