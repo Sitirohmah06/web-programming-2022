@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IMAGE PICKER</title>
+	<script type="text/javascript">
+	function gantigambar() {
+		let gambar = document.getElementById("list").value;
+		document.getElementById("gambar").src = gambar;
+		alert("Apakah yakin ini pilihan anda?");
+	}
+</script>
+</head>
+<body style="background-size: cover; margin: 150px" background="walfaper2.jpg">
+	<center><h1 style="background-color: rgb(122, 243, 128)">SELAMAT DATANG DI ZOO</h1></center>
+	<center>
+		<fieldset style="background-color: rgb(131, 221, 214)">
+		<select onchange="gantigambar();" id="list">
+			<option>Hewan Pilihan Anda</option>
+			<option value="images1.jpg">Komodo</option>
+			<option value="images2.jpg">Burung Unta</option>
+			<option value="images3.jpg">Gajah</option>
+			<option value="images4.jpg">Harimau</option>
+			<option value="images5.jpg">Zebra</option>
+			<option value="images6.jpg">Burung</option>
+		</select>
+	</fieldset>
+	</center>
+	<br>
+	<center><img src=merak.png style="width: 350px;" id="gambar"></center>
+</body>
+</html>
